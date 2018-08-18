@@ -1,0 +1,45 @@
+/*  
+ ***GENERAL*** 
+ The app is an online quiz system where any registered member can take online tests to access their level of competency in a chosen programming language
+
+ ***LANGUAGE***
+	 HTML
+	 CSS
+	 PHP
+	 JAVASCRIPT
+
+***ACCESS LEVELS***
+
+	ADMIN - Add questions for each section of the quiz
+
+	USER - Take test, add friend, see profile details with scores and level,
+
+***DATABASE TABLES***
+
+	USERS(id,access, fullname, username, email, password, HTML_RANK, CSS_RANK, PHP_RANK, JS_RANK,created_at,updated_at)
+
+	FRIENDSHIP (id, user_id, friend_id)
+
+	TEST QUESTIONS(id, question, type, answer, )
+
+***CLASSES***
+	
+	CONFIG( connect, database constant)
+
+	DATABASE( Create, Read, Update, Delete)
+
+	QUESTION( create_question, get_question, display_question, get_score, display_score )
+
+	FRIENDS(add_friend, remove_friend, )
+
+	USERS(register, get_details, delete_profile, update_profile, update_lang_rank)
+
+
+
+
+
+
+
+
+
+*/

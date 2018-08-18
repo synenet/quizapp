@@ -1,0 +1,40 @@
+.carousel-item img{width:100%;}
+
+
+.jumbotron{
+	background: url('../images/m3.jpg') no-repeat ;
+	background-size: cover;
+	height:400px;
+}
+
+.left-highlight{
+	background-color: #fff;
+	padding: 15px 20px;
+ }
+
+ .right-highlight{
+y
+ }
+
+ .language{
+ 	margin-top:25px;
+ 	margin-left:50px;
+ 	margin-right:50px;
+ }
+
+.left_panel{
+	background-color: #eaeaea;
+	height:800px;
+}
+
+.footer{
+	 background-color: #00838f;
+}
+
+.sm-img {
+	height: 150px;
+}
+
+.sm-tx{
+	width: 150px
+}
